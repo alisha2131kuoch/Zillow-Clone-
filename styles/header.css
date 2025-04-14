@@ -1,0 +1,74 @@
+.header {
+  border-bottom: solid;
+  border-color: rgb(207, 207, 207);
+  border-width: thin;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+
+
+
+
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.header button {
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+
+
+}
+
+
+
+.header button:hover {
+  color: rgb(48, 109, 251);
+
+
+}
+
+
+.middle-section {
+  margin-left: 25px;
+  margin-top: 13px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+
+.right-section {
+  margin-right: 10px;
+}
+
+.left-section {
+  margin-left: 10px;
+}
+
+.zillow-logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+@media (max-width: 931px) {
+  .header {
+    display: none;
+  }
+}

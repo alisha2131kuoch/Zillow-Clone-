@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .dropdown {
+      width: 120px;
+    }
+
+    .dropdown button {
+      background-color: white;
+      color: black;
+      padding: 10px 25px;
+      border-style: solid;
+      border-color: grey;
+      border-width: 1px;
+      border-radius: 5px;
+
+      cursor: pointer;
+    }
+
+    .dropdown .content {
+      display: none;
+      position: absolute;
+      width: 200px;
+      background-color: white;
+      box-shadow: 2px 2px 5px black;
+
+    }
+
+    .dropdown:hover .content {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="dropdown">
+    <button>For Sale &#x25B2;
+    </button>
+    <div class=" content">
+
+      <div>
+        <input type="radio" id="For Sale" name="house-type">
+        <label for="For Sale">For Sale</label>
+      </div>
+      <div>
+        <input type="radio" id="For Rent" name="house-type">
+        <label for="For Rent">For Rent</label>
+      </div>
+      <div>
+        <input type="radio" id="Sold" name="house-type">
+        <label for="Sold">Sold</label>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+</body>
+
+</html>
+
+
+<!-- <div>
+  <input type="radio" id="For Sale" name="house-type">
+  <label for="For Sale">For Sale</label>
+</div>
+<div>
+  <input type="radio" id="For Rent" name="house-type">
+  <label for="For Rent">For Rent</label>
+</div>
+<div>
+  <input type="radio" id="Sold" name="house-type">
+  <label for="Sold">Sold</label>
+</div> -->
+
+
+
+<!-- <input type="radio" id="For Sale" name="house-type">
+  <label for="For Sale">For Sale</label>
+
+  <input type="radio" id="For Rent" name="house-type">
+  <label for="For Rent">For Rent</label>
+
+  <input type="radio" id="Sold" name="house-type">
+  <label for="Sold">Sold</label> -->
